@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+
+# Node.js
+node_modules/
+
+# Build
+dist/
+coverage/
+*.tsbuildinfo
