@@ -61,7 +61,9 @@ class PuppeteerTabRecorder implements BrowserRecorder {
       });
       window.puppeteerTabRecorder!.mediaStream = stream;
       // create media recorder
-      const recorder = new MediaRecorder(stream);
+      const recorder = new MediaRecorder(stream, {
+        mimeType: 'video/webm; codecs=vp9',
+      });
       window.puppeteerTabRecorder!.mediaRecorder = recorder;
       // register event listeners
       recorder.addEventListener('dataavailable', (event) => {
