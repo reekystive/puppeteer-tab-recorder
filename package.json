@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-tab-recorder",
-  "version": "0.1.4",
+  "version": "0.2.3",
   "description": "Record browser tabs with audio",
   "keywords": [
     "puppeteer",
