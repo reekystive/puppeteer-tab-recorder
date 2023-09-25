@@ -97,3 +97,14 @@ await delay(1000);
 
 await browser.close();
 ```
+
+## Run examples
+
+```bash
+git clone https://github.com/reekystive/puppeteer-tab-recorder.git
+cd puppeteer-tab-recorde
+pnpm install
+pnpm exec ts-node-esm -T examples/youtube.ts
+```
+
+![Screen Capture 2023-09-25 at 20 14 26](https://github.com/reekystive/puppeteer-tab-recorder/assets/26853900/342aa088-39bf-48a7-a42e-adc279615cdd)
