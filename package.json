@@ -21,8 +21,10 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf dist/*",
     "coverage": "vitest run --coverage",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "prepublish": "pnpm run clean && pnpm run build",
     "test": "vitest"
   },
   "devDependencies": {
